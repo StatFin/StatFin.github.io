@@ -4,13 +4,8 @@ theme: theme.css
 description: |
   Home of the best statistical finance tutorials
 output_dir: "_site"
-base_url: https://statfin.github.io
-cookie_consent:
-  style: simple
-  type: express
-  palette: light
-  lang: en
-  cookies_policy: url
+base_url: https://statfin.netlify.com
+google_analytics: "G-Y46TEZFWVM"
 collections:
   posts:
     authors_metadata: false
