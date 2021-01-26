@@ -4,8 +4,8 @@ theme: theme.css
 description: |
   Home of the best statistical finance tutorials
 output_dir: "_site"
-base_url: https://statfin.netlify.com
-google_analytics: "G-Y46TEZFWVM"
+base_url: https://statfin.netlify.app
+google_analytics: "G-NLVDPW85L4"
 collections:
   posts:
     authors_metadata: false
