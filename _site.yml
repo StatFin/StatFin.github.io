@@ -1,9 +1,9 @@
-name: "DistillBlog"
+name: "StatFin.github.io"
 title: "StatFin"
 theme: theme.css
 description: |
   Home of the best statistical finance tutorials
-output_dir: "_site"
+output_dir: "."
 base_url: https://statfin.github.io
 cookie_consent:
   style: simple
