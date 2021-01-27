@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://statfin.github.io/about.html</loc>
+    <loc>https://statfin.netlify.app/about.html</loc>
     <lastmod>2021-01-26T04:59:05-05:00</lastmod>
   </url>
   <url>
-    <loc>https://statfin.github.io/</loc>
+    <loc>https://statfin.netlify.app/</loc>
     <lastmod>2021-01-26T06:45:30-05:00</lastmod>
   </url>
   <url>
-    <loc>https://statfin.github.io/posts/2021-01-26-basics-of-probability/</loc>
+    <loc>https://statfin.netlify.app/posts/2021-01-26-basics-of-probability/</loc>
     <lastmod>2021-01-26T06:18:26-05:00</lastmod>
   </url>
   <url>
-    <loc>https://statfin.github.io/posts/2021-01-26-the-sharpe-ratio/</loc>
+    <loc>https://statfin.netlify.app/posts/2021-01-26-neural-networks/</loc>
+    <lastmod>2021-01-26T20:42:25-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://statfin.netlify.app/posts/2021-01-26-random-forests/</loc>
+    <lastmod>2021-01-26T20:40:59-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://statfin.netlify.app/posts/2021-01-26-the-sharpe-ratio/</loc>
     <lastmod>2021-01-26T06:21:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://statfin.github.io/posts/welcome/</loc>
+    <loc>https://statfin.netlify.app/posts/welcome/</loc>
     <lastmod>2021-01-26T06:23:31-05:00</lastmod>
   </url>
 </urlset>
