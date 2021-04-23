@@ -2674,15 +2674,15 @@ Row  3 (&#39;Ti&#39;, 22, 1150.8)</code></pre>
 <div class="sourceCode" id="cb71"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> np.random.randn(<span class="dv">9</span>)</span>
 <span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(l.reshape((<span class="dv">3</span>,<span class="dv">3</span>)))</span></code></pre></div>
-<pre><code>[[-0.98331233 -0.10951978  0.45015927]
- [ 0.29755799  1.16197099 -1.57131675]
- [-1.47534434 -0.2386963  -0.49271224]]</code></pre>
+<pre><code>[[ 0.14960327 -0.82818037 -2.20713769]
+ [-0.56879632  0.03874308 -0.56685913]
+ [ 0.36684971 -0.59630647 -0.07678951]]</code></pre>
 <div class="sourceCode" id="cb73"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;-&#39;</span><span class="op">*</span><span class="dv">10</span>)</span></code></pre></div>
 <pre><code>----------</code></pre>
 <div class="sourceCode" id="cb75"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.empty((<span class="dv">3</span>,<span class="dv">3</span>)))</span></code></pre></div>
-<pre><code>[[0.98331233 0.10951978 0.45015927]
- [0.29755799 1.16197099 1.57131675]
- [1.47534434 0.2386963  0.49271224]]</code></pre>
+<pre><code>[[0.14960327 0.82818037 2.20713769]
+ [0.56879632 0.03874308 0.56685913]
+ [0.36684971 0.59630647 0.07678951]]</code></pre>
 </div>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode" id="cb77"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>np.eye(<span class="dv">3</span>)</span></code></pre></div>
@@ -2711,27 +2711,8 @@ Row  3 (&#39;Ti&#39;, 22, 1150.8)</code></pre>
 <div class="sourceCode" id="cb85"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.diag(B))</span></code></pre></div>
 <pre><code>[1 5 8]</code></pre>
 </div>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb87"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a>np.arange(<span class="dv">1</span>,<span class="dv">10</span>,<span class="dv">1</span>)</span></code></pre></div>
-<pre><code>array([1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb89"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>np.arange(<span class="dv">1</span>,<span class="dv">100</span>,<span class="fl">2.5</span>)</span></code></pre></div>
-<pre><code>array([ 1. ,  3.5,  6. ,  8.5, 11. , 13.5, 16. , 18.5, 21. , 23.5, 26. ,
-       28.5, 31. , 33.5, 36. , 38.5, 41. , 43.5, 46. , 48.5, 51. , 53.5,
-       56. , 58.5, 61. , 63.5, 66. , 68.5, 71. , 73.5, 76. , 78.5, 81. ,
-       83.5, 86. , 88.5, 91. , 93.5, 96. , 98.5])</code></pre>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb91"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>np.linspace(<span class="dv">1</span>,<span class="dv">10</span>,<span class="dv">100000000</span>)</span></code></pre></div>
-<pre><code>array([ 1.        ,  1.00000009,  1.00000018, ...,  9.99999982,
-        9.99999991, 10.        ])</code></pre>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb93"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">2</span><span class="op">*</span>np.pi,<span class="dv">100</span>)</span>
-<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a>f_x <span class="op">=</span> np.sin(x)</span></code></pre></div>
-</div>
-<div class="sourceCode" id="cb94"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>I hope you learnt a lot in this tutorial. This is only the beginning of NumPy. Look out for future advanced tutorials. Thanks!</p>
+<div class="sourceCode" id="cb87"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">

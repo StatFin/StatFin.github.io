@@ -4,7 +4,7 @@
     <title>StatFin</title>
     <link>https://statfin.netlify.app</link>
     <atom:link href="https://statfin.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
-    <description>Home of the best statistical finance tutorials
+    <description>Home of the best statistics, finance and data science tutorials
 </description>
     <generator>Distill</generator>
     <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>

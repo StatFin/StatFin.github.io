@@ -2,7 +2,7 @@ name: "StatFin.github.io"
 title: "StatFin"
 theme: theme.css
 description: |
-  Home of the best statistical finance tutorials
+  Home of the best statistics, finance and data science tutorials
 output_dir: "_site"
 base_url: https://statfin.netlify.app
 google_analytics: "G-NLVDPW85L4"

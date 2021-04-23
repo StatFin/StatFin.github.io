@@ -279,24 +279,4 @@ print('\n', A*B)
 print(np.diag(B))
 ```
 
-
-```{python , echo = TRUE}
-np.arange(1,10,1)
-```
-
-
-```{python , echo = TRUE}
-np.arange(1,100,2.5)
-```
-
-
-```{python , echo = TRUE}
-np.linspace(1,10,100000000)
-```
-
-
-```{python , echo = TRUE}
-x = np.linspace(0,2*np.pi,100)
-f_x = np.sin(x)
-
-```
+I hope you learnt a lot in this tutorial. This is only the beginning of NumPy. Look out for future advanced tutorials. Thanks!
