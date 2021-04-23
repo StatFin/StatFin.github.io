@@ -7,84 +7,17 @@
     <description>Home of the best statistics, finance and data science tutorials
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>An Introduction to Python's NumPy Package</title>
       <dc:creator>Cephas Svosve</dc:creator>
       <link>https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial</link>
       <description>This tutorial is tailored for beginners who want to master the basics of NumPy package.</description>
+      <category>NumPy</category>
+      <category>Python</category>
       <guid>https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial</guid>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       <media:content url="https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>Basics of Probability</title>
-      <dc:creator>Wilson Sithole</dc:creator>
-      <dc:creator>Cephas Svosve</dc:creator>
-      <dc:creator>Blessing Nyatsanza</dc:creator>
-      <link>https://statfin.netlify.app/posts/2021-01-26-basics-of-probability</link>
-      <description>In this tutorial, we walk through the basics of classification in R using the famous
-Titanic dataset from Kaggle. The tutorial starts with the basic concepts of data wrangling and   exploration in R before it weaves into the actual classification. Read on..</description>
-      <category>statistical inference</category>
-      <category>bayes theorem</category>
-      <category>maximum likelihood</category>
-      <guid>https://statfin.netlify.app/posts/2021-01-26-basics-of-probability</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://statfin.netlify.app/posts/2021-01-26-basics-of-probability/basics-of-probability_files/figure-html5/unnamed-chunk-5-1.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>Neural Networks</title>
-      <dc:creator>Wilson Sithole</dc:creator>
-      <dc:creator>Cephas Svosve</dc:creator>
-      <dc:creator>Blessing Nyatsanza</dc:creator>
-      <link>https://statfin.netlify.app/posts/2021-01-26-neural-networks</link>
-      <description>A short description of the post.</description>
-      <guid>https://statfin.netlify.app/posts/2021-01-26-neural-networks</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://statfin.netlify.app/posts/2021-01-26-neural-networks/neural-networks_files/figure-html5/unnamed-chunk-4-1.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>Random Forests</title>
-      <dc:creator>Wilson Sithole</dc:creator>
-      <dc:creator>Cephas Svosve</dc:creator>
-      <dc:creator>Blessing Nyatsanza</dc:creator>
-      <link>https://statfin.netlify.app/posts/2021-01-26-random-forests</link>
-      <description>A short description of the post.</description>
-      <guid>https://statfin.netlify.app/posts/2021-01-26-random-forests</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://statfin.netlify.app/posts/2021-01-26-random-forests/random-forests_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>The Sharpe Ratio</title>
-      <dc:creator>Wilson Sithole</dc:creator>
-      <dc:creator>Cephas Svosve</dc:creator>
-      <dc:creator>Blessing Nyatsanza</dc:creator>
-      <link>https://statfin.netlify.app/posts/2021-01-26-the-sharpe-ratio</link>
-      <description>In this tutorial we present a classic finance use case using the
-PerformanceAnalytics, quantmod, and dygraphs packages. 
-We'll demonstrate importing stock data, building a portfolio,
-and then calculating the Sharpe Ratio.</description>
-      <category>statistical inference</category>
-      <category>machine learning</category>
-      <category>classification</category>
-      <category>black scholes</category>
-      <guid>https://statfin.netlify.app/posts/2021-01-26-the-sharpe-ratio</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://statfin.netlify.app/posts/2021-01-26-the-sharpe-ratio/the-sharpe-ratio_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>Welcome to StatFin</title>
-      <dc:creator>Wilson Sithole</dc:creator>
-      <dc:creator>Cephas Svosve</dc:creator>
-      <dc:creator>Blessing Nyatsanza</dc:creator>
-      <link>https://statfin.netlify.app/posts/welcome</link>
-      <description>The very first tutorial on StatFin! Hopefully the first of many...We hope you will enjoy 
-reading our tutorials on Statistics and Finance!</description>
-      <category>regression</category>
-      <category>black scholes</category>
-      <guid>https://statfin.netlify.app/posts/welcome</guid>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://statfin.netlify.app/posts/welcome/welcome_files/figure-html5/unnamed-chunk-4-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
   </channel>
 </rss>

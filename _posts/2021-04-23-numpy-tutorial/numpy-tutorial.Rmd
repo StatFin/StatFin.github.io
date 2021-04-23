@@ -2,12 +2,16 @@
 title: "An Introduction to Python's NumPy Package"
 description: |
   This tutorial is tailored for beginners who want to master the basics of NumPy package.
+
+categories:
+  - NumPy
+  - Python
 author:
   - name: Cephas Svosve 
     url: https://www.inet.ox.ac/people/cephas-svosve
     affiliation: University of Oxford
     affiliation_url: https://www.inet.ox.ac
-date: "`r Sys.Date()`"
+date: 03-21-2021
 output: distill::distill_article
 ---
 
