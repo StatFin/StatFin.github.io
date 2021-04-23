@@ -1,0 +1,302 @@
+---
+title: "An Introduction to Python's NumPy Package"
+description: |
+  This tutorial is tailored for beginners who want to master the basics of NumPy package.
+author:
+  - name: Cephas Svosve 
+    url: https://www.inet.ox.ac/people/cephas-svosve
+    affiliation: University of Oxford
+    affiliation_url: https://www.inet.ox.ac
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r, echo = FALSE, message = FALSE}
+library(imager)
+im = load.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/2560px-NumPy_logo_2020.svg.png")
+plot(im)
+```
+
+### Loading NumPy library
+
+```{python , echo = TRUE}
+import numpy as np
+```
+
+
+### Creating NumPy arrays from python Lists
+
+```{python , echo = TRUE}
+l = [1,2,3,4,5]
+# Why do we have to put lists as numpy objects rather than use them as they are?
+np.arr = np.array(l) 
+np.arr
+```
+
+
+```{python , echo = TRUE}
+type(np.arr)
+```
+
+
+```{python , echo = TRUE}
+np.mat('1 2; 3 4; 5 6')
+```
+
+
+```{python , echo = TRUE}
+# from numpy matrix to numpy array
+
+np.array(np.mat('1 2; 3 4; 5 6'))
+```
+
+
+```{python , echo = TRUE}
+#a = np.array(1,2,3,4,5,6) # wrong because the argument is not a list
+a = np.array([1,2,3,4,5,6]) # correct
+```
+
+
+### Type Casting
+
+```{python , echo = TRUE}
+# items in list are maintained in their original states
+l = [1,2,3.0] 
+l
+```
+
+
+```{python , echo = TRUE}
+# items in the list all become floats
+a = np.array([1,2,3.0])
+a
+```
+
+
+```{python , echo = TRUE}
+print(np.array([1,2,3], dtype = float))
+```
+
+
+```{python , echo = TRUE}
+print(np.array([1,2,3], dtype = 'U'))
+print(np.array([12345,2,3], dtype = '<U2'))
+print(np.array([1,2,3], dtype = complex))
+```
+
+
+```{python , echo = TRUE}
+x = np.array([('Cephas',24, 1000.1), ('Temwanani', 25,4000.4)], dtype = [('name', '<U11'),('age','int'), ('salary', 'f4')])
+```
+
+
+```{python , echo = TRUE}
+print(x)
+```
+
+
+```{python , echo = TRUE}
+print('Row 1', x[0])
+print('Row 2', x[1])
+```
+
+
+```{python , echo = TRUE}
+x = np.array([('Cephas',24, 1000.1), 
+              ('Temwanani', 25,4000.4),
+             ('Caiphas',24, 1500.12), 
+             ('Tinashe',22, 1150.80), ], dtype = [('name', '<U11'),('age','int'), ('salary', 'f4')])
+
+print(x)
+```
+
+
+```{python , echo = TRUE}
+for i in range(4):
+    print('Row ', i, x[i])
+```
+
+
+```{python , echo = TRUE}
+x = np.array([('Cephas',24, 1000.1), 
+              ('Temwanani', 25,4000.4),
+             ('Caiphas',24, 1500.12), 
+             ('Tinashe',22, 1150.80), ], dtype = [('name', '<U2'),('age','U'), ('salary', 'f')])
+```
+
+
+```{python , echo = TRUE}
+for i in range(4):
+    print('Row ',i ,x[i])
+```
+
+
+```{python , echo = TRUE}
+x = np.array([('Cephas',24, 1000.1), 
+              ('Temwanani', 25,4000.4),
+             ('Caiphas',24, 1500.12), 
+             ('Tinashe',22, 1150.80), ], dtype = [('name', '<U2'),('age','int32'), ('salary', 'f')])
+```
+
+
+```{python , echo = TRUE}
+for i in range(4):
+    print('Row ',i ,x[i])
+```
+
+
+### Two Dimensional Array
+
+```{python , echo = TRUE}
+[(1,5,2,3),(4,5,6)]
+```
+
+
+```{python , echo = TRUE}
+two_arr = np.array([(1,2,3),(4,5,7),(0,2,8)])
+two_arr1= two_arr
+two_arr
+```
+
+
+```{python , echo = TRUE}
+np.mat(two_arr)
+```
+
+
+```{python , echo = TRUE}
+print('Shape of 2-D Array is ', two_arr.shape)
+```
+
+
+```{python , echo = TRUE}
+print('Number of Dimensions for 2-D Array is ', two_arr.ndim)
+```
+
+
+```{python , echo = TRUE}
+print('The data type for the 2-D Array is ', two_arr.dtype)
+```
+
+
+```{python , echo = TRUE}
+print('The size of the 2-D Array is ', two_arr.size)
+```
+
+
+### Three Dimensional Array
+
+```{python , echo = TRUE}
+three_arr = np.array([[[1,2,3],
+                       [3,4,2],
+                       [3,2,1]],
+                      
+                      [[2,1,3],
+                       [0,0,2], 
+                       [3,4,5]],
+                     
+                     [[3,6,8],
+                      [4,0,1],
+                      [0,1,0]]])
+```
+
+
+```{python , echo = TRUE}
+three_arr
+
+```
+
+
+```{python , echo = TRUE}
+print("Shape of 3-D Array is ", three_arr.shape)
+```
+
+
+```{python , echo = TRUE}
+print('Size of 3-D Array is ', three_arr.size)
+```
+
+
+```{python , echo = TRUE}
+print('Number of Dimensions for 3-D Array is ', three_arr.ndim)
+```
+
+
+```{python , echo = TRUE}
+print("Type of 3-D Array is ", three_arr.dtype)
+```
+
+
+### Important Functions in NumPy
+
+```{python , echo = TRUE}
+np.zeros((4,4))
+```
+
+
+```{python , echo = TRUE}
+np.mat(np.zeros((9,9)))
+```
+
+
+```{python , echo = TRUE}
+np.ones((3,5))
+```
+
+
+```{python , echo = TRUE}
+l = np.random.randn(9)
+
+print(l.reshape((3,3)))
+print('-'*10)
+print(np.empty((3,3)))
+```
+
+
+```{python , echo = TRUE}
+np.eye(3)
+```
+
+
+```{python , echo = TRUE}
+A = np.eye(3)
+B = two_arr1
+
+print(type(two_arr1))
+
+print('\n', A.dot(B))
+
+print('\n', A*B)
+```
+
+
+```{python , echo = TRUE}
+print(np.diag(B))
+```
+
+
+```{python , echo = TRUE}
+np.arange(1,10,1)
+```
+
+
+```{python , echo = TRUE}
+np.arange(1,100,2.5)
+```
+
+
+```{python , echo = TRUE}
+np.linspace(1,10,100000000)
+```
+
+
+```{python , echo = TRUE}
+x = np.linspace(0,2*np.pi,100)
+f_x = np.sin(x)
+
+```

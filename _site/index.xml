@@ -7,7 +7,16 @@
     <description>Home of the best statistical finance tutorials
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An Introduction to Python's NumPy Package</title>
+      <dc:creator>Cephas Svosve</dc:creator>
+      <link>https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial</link>
+      <description>This tutorial is tailored for beginners who want to master the basics of NumPy package.</description>
+      <guid>https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial</guid>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://statfin.netlify.app/posts/2021-04-23-numpy-tutorial/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Basics of Probability</title>
       <dc:creator>Wilson Sithole</dc:creator>
